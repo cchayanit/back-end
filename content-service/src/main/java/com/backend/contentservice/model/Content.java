@@ -9,13 +9,7 @@ public class Content {
     public Content() {
     }
  
-    /*public Content(Long id, String titile, String protagonist, String detail) {
-        this.id = id;
-        this.title = title;
-        this.protagonist = protagonist;
-        this.detail = detail;
-    }*/
-            
+             
     	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private long id;
